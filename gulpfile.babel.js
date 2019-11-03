@@ -112,7 +112,7 @@ export const clean = () => del(['dist']);
 // Browsersync refresh
 export const serve = done => {
     server.init({
-        proxy: "http://newbidsara.com/" // put your local website link here
+        proxy: "http://localhost/" // put your local website link here
     });
     done();
 };
