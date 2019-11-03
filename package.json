@@ -1,0 +1,51 @@
+{
+  "name": "storebootfront",
+  "version": "0.1.0",
+  "description": "Woocommerce Storefront Bootstrap Child Theme",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build --prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siavashh/storebootfront.git"
+  },
+  "keywords": [
+    "woocommerce",
+    "bootstrap",
+    "storefront",
+    "theme",
+    "starter"
+  ],
+  "author": "Siavash Keshmiri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siavashh/storebootfront/issues"
+  },
+  "homepage": "https://github.com/siavashh/storebootfront#readme",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "autoprefixer": "^9.7.1",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^6.1.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-wp-pot": "^2.3.5",
+    "gulp-zip": "^5.0.1",
+    "vinyl-named": "^1.1.0",
+    "webpack": "^4.41.2",
+    "webpack-stream": "^5.2.1",
+    "yargs": "^14.2.0"
+  }
+}
