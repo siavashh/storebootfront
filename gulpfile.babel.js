@@ -135,7 +135,7 @@ export const compress = () => {
         "!package-lock.json",
     ])
         .pipe(replace("_sbftheme", info.name))
-        .pipe(zip(`${info.name}.zip`))
+        .pipe(zip(`${info.name}-${info.version}.zip`))
         .pipe(dest('bundled'));
 };
 
